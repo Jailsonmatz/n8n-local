@@ -6,6 +6,7 @@ WORKDIR /home/node
 
 RUN mkdir -p /home/node/.n8n 
 
+ENV PORT=5678
 # Expor a porta 5678 usada pelo n8n
 EXPOSE 5678
 
